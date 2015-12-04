@@ -27,3 +27,20 @@ So these are the Vis concepts we have in mind currently: -
 To get the data you will have to connect to a VPN connection and collect the data from the postgresql database. There is a limit of 5 connections only, so there will be a few designated people working on getting the data and the rest would be
 getting sample data in csv format to work on.
 
+## Coding Guidelines
+It is must to follow good coding standards as this code will be shared with others, so keep it sane we will be very strict
+about these guidelines. Different Languages have different guidelines we are listing a few, if you are using some other 
+programming langauge please let us know we will add it here. 
+
+**WARNING: Pull Requests not following proper guidelines will not be merged.**
+
+- Python: Incase you don't know the `zen of python` follow these [guidelines](https://github.com/raspberrypilearning/python-style-guide) while coding.
+
+- Js: These are the [guidelines](https://github.com/brunge/js-coding-guidelines) for js fans :)
+
+## Contributing
+To contribute to the codebase, ask us to add you to our datakind community on github and from there on:-
+- Fork It
+- code
+- send Pull request
+- We will be reviewing the code and merging it. :)

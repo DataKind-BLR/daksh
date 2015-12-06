@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+<body>
+	<script src="data/data_aster.js" ></script>
+	<script src="data/data_treemap.js" ></script>
+	<div id="hearing">
+	</div>
+	<script src="js/case_type_aster.js" ></script>
+	<div id="casetype" class="treemap"></div>
+	<script src="js/case_type_treemap.js" ></script>
+	<div class="hearing_legend">
+		<span title="Curve"><i>Curve of arc: &nbsp;</i>total no of hearings</span>
+		<span><i>Length of arc: &nbsp;</i>Average no of days between two hearings</span>
+		<span><i>color: &nbsp;</i>Average no of day to solve the cases</span>
+	</div>
+</body>
+</html>
